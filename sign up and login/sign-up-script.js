@@ -43,7 +43,8 @@ email.onchange = function () {
     forms.forEach(el =>{
        register.style.display='none';
        login.style.display='block';
-      
+       loginbtn.classList.add('display-n');
+      signupbtn.classList.remove('display-n');
     })
     
    
@@ -56,7 +57,8 @@ email.onchange = function () {
     forms.forEach(el =>{
        register.style.display='block';
        login.style.display='none';
-      
+       signupbtn.classList.add('display-n');
+       loginbtn.classList.remove('display-n');
     })
     
    
