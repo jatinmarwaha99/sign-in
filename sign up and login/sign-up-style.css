@@ -1,0 +1,105 @@
+/* custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #1ABC9C; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:white; 
+      border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:white; 
+   }
+    /*scrollbar ends here  */
+  
+          .set{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: absolute;
+              top: 50%;
+              left: 75%;
+              transform: translate(-50%,-50%);
+              width:50%;
+              border: 1px solid #1ABC9C;
+              
+              height: 500px;
+              background-color: #1ABC9C;
+          }
+          .image-appointment{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            height: 500px;
+            
+            transform: translate(-50%,-50%);
+            width:50%;
+            background-image: url(section-bg.jpg);
+            background-size: cover;
+          }
+         button{
+          width: 100%;
+          margin-top: 10px;
+         }
+        
+         .register{
+          position: absolute;
+          width: 80%;
+          left: 10%;
+          top: 15%;
+          height: 320px;
+          overflow-y: scroll;
+         }
+         .login{
+        display: none;
+          position: absolute;
+          width: 80%;
+          left: 10%;
+          top:15%;
+          height: 320px;
+         }
+         .two-btns{
+          position: absolute;
+    left: 55%;
+    top: 70%;
+         }
+         i{
+          position: absolute;
+          top: 168px;
+          right: 128px;
+         }
+         .inline-b{
+          display: inline-block;
+         }
+       
+        .formset{
+          margin-bottom: 10px;
+        }
+        .width-60{
+          width: 60%;
+        }
+        .width-80{
+          width: 80%;
+        }
+        .width-100px{
+          width: 100px;
+        }
+        .submit-btn{
+          position: absolute;
+          width: 60%;
+          /* left: 27px; */
+        }
+      
